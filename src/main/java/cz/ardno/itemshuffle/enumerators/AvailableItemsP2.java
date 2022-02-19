@@ -41,7 +41,6 @@ public class AvailableItemsP2 {
         items.add(Material.BELL);
         items.add(Material.BIRCH_LEAVES);
         items.add(Material.BLAST_FURNACE);
-        items.add(Material.BLUE_ORCHID);
         items.add(Material.BONE_BLOCK);
         items.add(Material.BOOK);
         items.add(Material.BOOKSHELF);

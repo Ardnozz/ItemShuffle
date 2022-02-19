@@ -15,7 +15,6 @@ public class AvailableItemsP4 {
 
     static {
         items.add(Material.ANCIENT_DEBRIS);
-        items.add(Material.BEEHIVE);
         //items.add(Material.BLACK_CANDLE);
         items.add(Material.BLAZE_POWDER);
         items.add(Material.BLAZE_ROD);
@@ -34,6 +33,7 @@ public class AvailableItemsP4 {
         items.add(Material.BROWN_TERRACOTTA);
         items.add(Material.BROWN_WOOL);
         //items.add(Material.CANDLE);
+        items.add(Material.CACTUS);
         items.add(Material.COCOA_BEANS);
         items.add(Material.COOKIE);
         items.add(Material.CYAN_BANNER);

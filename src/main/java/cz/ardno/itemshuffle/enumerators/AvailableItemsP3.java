@@ -23,7 +23,7 @@ public class AvailableItemsP3 {
         items.add(Material.BLACKSTONE_SLAB);
         items.add(Material.BLACKSTONE_STAIRS);
         items.add(Material.BLACKSTONE_WALL);
-        items.add(Material.CACTUS);
+        items.add(Material.BLUE_ORCHID);
         items.add(Material.CHISELED_NETHER_BRICKS);
         items.add(Material.CHISELED_POLISHED_BLACKSTONE);
         items.add(Material.CHISELED_QUARTZ_BLOCK);
@@ -59,6 +59,7 @@ public class AvailableItemsP3 {
         items.add(Material.GOLDEN_APPLE);
         items.add(Material.HANGING_ROOTS);
         items.add(Material.LEAD);
+        items.add(Material.LILY_PAD);
         items.add(Material.MAGMA_BLOCK);
         items.add(Material.MAGMA_CREAM);
         items.add(Material.NETHER_BRICK);

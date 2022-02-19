@@ -1,2 +1,72 @@
-# Item-Shuffle
- 
+# ItemShuffle
+
+Item Shuffle is minecraft multiplayer minigame made for version 1.18.x for Spigot/Paper servers.
+
+## How to play
+
+Obtain items displayed in chat. Use commands described below.
+For start _/itemshuffle start_ and for stop _/itemshuffle stop_
+
+## Commands
+
+- /itemshuffle __start__ - Starts the ItemShuffle for all online players
+- /itemshuffle __stop__ - Stops the ItemShuffle without reseting phase
+- /itemshuffle __nextitem__ - Skips the item for players
+- /itemshuffle __bothmode__ - Enables/disables same item for players
+- /itemshuffle __setphase__ \<round\> - Sets round and starts a new item
+- /itemshuffle __resetphase__ - Sets round to its default (0)
+
+## Phases
+
+### Phase 1 (round 0 - 4)
+Basic items without dark oak and acacia items.
+
+<details>
+    <summary>All items in phase</summary>
+    <p>Andesite, Andesite Slab, Andesite Stairs, Andesite Wall, Armor Stand, Arrow, Azure Bluet, Barrel, Beef, Birch Boat, Birch Button, Birch Door, Birch Fence Gate, Birch Log, Birch Planks, Birch Pressure Plate, Birch Sapling, Birch Sign, Birch Slab, Birch Stairs, Birch Trapdoor, Birch Wood, Black Banner, Black Bed, Black Carpet, Black Concrete, Black Concrete Powder, Black Dye, Black Glazed Terracotta, Black Stained Glass, Black Stained Glass Pane, Black Terracotta, Black Wool, Blue Banner, Blue Bed, Blue Carpet, Blue Concrete, Blue Concrete Powder, Blue Dye, Blue Glazed Terracotta, Blue Stained Glass, Blue Stained Glass Pane, Blue Terracotta, Blue Wool, Bone, Bone Meal, Bow, Bowl, Brick, Brick Slab, Brick Stairs, Brick Wall, Bricks, Bucket, Campfire, Cartography Table, Carved Pumpkin, Chain, Charcoal, Chicken, Chiseled Deepslate, Chiseled Sandstone, Chiseled Stone Bricks, Clay, Clay Ball, Coal, Coal Block, Coarse Dirt, Cobbled Deepslate, Cobbled Deepslate Slab, Cobbled Deepslate Stairs, Cobbled Deepslate Wall, Cobblestone, Cobblestone Slab, Cobblestone Stairs, Cobblestone Wall, Cod, Composter, Cooked Beef, Cooked Chicken, Cooked Cod, Cooked Mutton, Cooked Porkchop, Cooked Salmon, Copper Ingot, Cornflower, Cracked Deepslate Bricks, Cracked Deepslate Tiles, Cracked Stone Bricks, Cut Sandstone, Cut Sandstone Slab, Dandelion, Deepslate, Deepslate Brick Slab, Deepslate Brick Stairs, Deepslate Brick Wall, Deepslate Bricks, Deepslate Tile Slab, Deepslate Tile Stairs, Deepslate Tile Wall, Deepslate Tiles, Diorite, Diorite Slab, Diorite Stairs, Diorite Wall, Dirt, Dried Kelp, Dropper, Feather, Firework Rocket, Firework Star, Fishing Rod, Fletching Table, Flint, Flint And Steel, Flower Pot, Glass, Glass Bottle, Glass Pane, Glow Ink Sac, Glow Item Frame, Glow Lichen, Gold Ingot, Gold Nugget, Granite, Granite Slab, Granite Stairs, Granite Wall, Gravel, Gray Banner, Gray Bed, Gray Carpet, Gray Concrete, Gray Concrete Powder, Gray Dye, Gray Glazed Terracotta, Gray Stained Glass, Gray Stained Glass Pane, Gray Terracotta, Gray Wool, Grindstone, Gunpowder, Hay Block, Heavy Weighted Pressure Plate, Ink Sac, Iron Axe, Iron Hoe, Iron Ingot, Iron Nugget, Iron Pickaxe, Iron Shovel, Iron Sword, Item Frame, Jack O Lantern, Lantern, Lapis Lazuli, Lava Bucket, Leather, Leather Boots, Leather Chestplate, Leather Helmet, Leather Leggings, Lever, Light Blue Banner, Light Blue Bed, Light Blue Carpet, Light Blue Concrete, Light Blue Concrete Powder, Light Blue Dye, Light Blue Glazed Terracotta, Light Blue Stained Glass, Light Blue Stained Glass Pane, Light Blue Terracotta, Light Blue Wool, Light Gray Banner, Light Gray Bed, Light Gray Carpet, Light Gray Concrete, Light Gray Concrete Powder, Light Gray Dye, Light Gray Glazed Terracotta, Light Gray Stained Glass, Light Gray Stained Glass Pane, Light Gray Terracotta, Light Gray Wool, Lilac, Lily Of The Valley, Loom, Magenta Banner, Magenta Bed, Magenta Carpet, Magenta Concrete, Magenta Concrete Powder, Magenta Dye, Magenta Glazed Terracotta, Magenta Stained Glass, Magenta Stained Glass Pane, Magenta Terracotta, Magenta Wool, Milk Bucket, Moss Block, Moss Carpet, Mutton, Note Block, Oak Boat, Oak Button, Oak Door, Oak Fence Gate, Oak Log, Oak Planks, Oak Pressure Plate, Oak Sapling, Oak Sign, Oak Slab, Oak Stairs, Oak Trapdoor, Oak Wood, Orange Banner, Orange Bed, Orange Carpet, Orange Concrete, Orange Concrete Powder, Orange Dye, Orange Glazed Terracotta, Orange Stained Glass, Orange Stained Glass Pane, Orange Terracotta, Orange Tulip, Orange Wool, Oxeye Daisy, Painting, Paper, Peony, Pink Banner, Pink Bed, Pink Carpet, Pink Concrete, Pink Concrete Powder, Pink Dye, Pink Glazed Terracotta, Pink Stained Glass, Pink Stained Glass Pane, Pink Terracotta, Pink Tulip, Pink Wool, Piston, Pointed Dripstone, Polished Andesite, Polished Andesite Slab, Polished Andesite Stairs, Polished Deepslate, Polished Deepslate Slab, Polished Deepslate Stairs, Polished Deepslate Wall, Polished Diorite, Polished Diorite Slab, Polished Diorite Stairs, Polished Granite, Polished Granite Slab, Polished Granite Stairs, Poppy, Porkchop, Pumpkin, Purple Banner, Purple Bed, Purple Carpet, Purple Concrete, Purple Concrete Powder, Purple Dye, Purple Glazed Terracotta, Purple Stained Glass, Purple Stained Glass Pane, Purple Terracotta, Purple Wool, Raw Copper, Raw Gold, Raw Iron, Red Banner, Red Bed, Red Carpet, Red Concrete, Red Concrete Powder, Red Dye, Red Glazed Terracotta, Red Stained Glass, Red Stained Glass Pane, Red Terracotta, Red Tulip, Red Wool, Redstone, Redstone Torch, Rose Bush, Rotten Flesh, Salmon, Sand, Sandstone, Sandstone Slab, Sandstone Stairs, Sandstone Wall, Shears, Shield, Smithing Table, Smoker, Smooth Sandstone, Smooth Sandstone Slab, Smooth Sandstone Stairs, Smooth Stone, Smooth Stone Slab, Snow Block, Snowball, Spider Eye, Spruce Boat, Spruce Button, Spruce Door, Spruce Fence Gate, Spruce Log, Spruce Planks, Spruce Pressure Plate, Spruce Sapling, Spruce Sign, Spruce Slab, Spruce Stairs, Spruce Trapdoor, Spruce Wood, Stick, Stone, Stone Axe, Stone Brick Slab, Stone Brick Stairs, Stone Brick Wall, Stone Bricks, Stone Button, Stone Hoe, Stone Pickaxe, Stone Pressure Plate, Stone Shovel, Stone Slab, Stone Stairs, Stone Sword, Stonecutter, String, Stripped Birch Log, Stripped Birch Wood, Stripped Oak Log, Stripped Oak Wood, Stripped Spruce Log, Stripped Spruce Wood, Sugar, Terracotta, Trapped Chest, Tripwire Hook, Water Bucket, Wheat, Wheat Seeds, White Banner, White Bed, White Carpet, White Concrete, White Concrete Powder, White Dye, White Glazed Terracotta, White Stained Glass, White Stained Glass Pane, White Terracotta, White Tulip, White Wool, Wooden Axe, Wooden Hoe, Wooden Pickaxe, Wooden Shovel, Wooden Sword, Yellow Banner, Yellow Bed, Yellow Carpet, Yellow Concrete, Yellow Concrete Powder, Yellow Dye, Yellow Glazed Terracotta, Yellow Stained Glass, Yellow Stained Glass Pane, Yellow Terracotta, Yellow Wool</p>
+</details>
+
+### Phase 2 (round 5 - 9)
+
+More complex items to obtain including dark oak and acacia items.
+
+<details>
+    <summary>All items in phase</summary>
+    <p>Acacia Boat, Acacia Button, Acacia Door, Acacia Fence Gate, Acacia Leaves, Acacia Log, Acacia Planks, Acacia Pressure Plate, Acacia Sapling, Acacia Sign, Acacia Slab, Acacia Stairs, Acacia Trapdoor, Acacia Wood, Activator Rail, Allium, Amethyst Block, Amethyst Shard, Apple, Axolotl Bucket, Baked Potato, Beetroot, Beetroot Seeds, Beetroot Soup, Bell, Birch Leaves, Blast Furnace, Bone Block, Book, Bookshelf, Bread, Brown Mushroom, Cake, Calcite, Carrot, Carrot On A Stick, Cauldron, Chest Minecart, Clock, Cobweb, Cod Bucket, Compass, Cooked Rabbit, Copper Block, Crossbow, Cut Copper, Cut Copper Slab, Cut Copper Stairs, Dark Oak Boat, Dark Oak Button, Dark Oak Door, Dark Oak Fence Gate, Dark Oak Leaves, Dark Oak Log, Dark Oak Planks, Dark Oak Pressure Plate, Dark Oak Sapling, Dark Oak Sign, Dark Oak Slab, Dark Oak Stairs, Dark Oak Trapdoor, Dark Oak Wood, Detector Rail, Diamond, Diamond Axe, Diamond Hoe, Diamond Pickaxe, Diamond Shovel, Diamond Sword, Dispenser, Dried Kelp Block, Emerald, Fermented Spider Eye, Furnace Minecart, Golden Axe, Golden Boots, Golden Carrot, Golden Chestplate, Golden Helmet, Golden Hoe, Golden Leggings, Golden Pickaxe, Golden Shovel, Golden Sword, Grass, Hopper, Hopper Minecart, Iron Bars, Iron Block, Iron Boots, Iron Chestplate, Iron Chestplate, Iron Door, Iron Helmet, Iron Leggings, Iron Trapdoor, Lapis Block, Lectern, Light Weighted Pressure Plate, Lightning Rod, Map, Melon, Melon Seeds, Melon Slice, Minecart, Mossy Cobblestone, Mossy Cobblestone Slab, Mossy Cobblestone Stairs, Mossy Cobblestone Wall, Mossy Stone Brick Slab, Mossy Stone Brick Stairs, Mossy Stone Brick Wall, Mossy Stone Bricks, Mushroom Stew, Oak Leaves, Potato, Powered Rail, Pufferfish, Pumpkin Pie, Pumpkin Seeds, Rabbit, Rabbit Foot, Rabbit Hide, Rail, Raw Copper Block, Raw Gold Block, Raw Iron Block, Red Mushroom, Redstone Block, Redstone Lamp, Repeater, Salmon Bucket, Seagrass, Smooth Basalt, Spruce Leaves, Spyglass, Stripped Acacia Log, Stripped Acacia Wood, Stripped Dark Oak Log, Stripped Dark Oak Wood, Sunflower, Sweet Berries, Target, Tinted Glass, Tnt, Tnt Minecart, Tropical Fish, Vine, Writable Book</p>
+</details>
+
+### Phase 3 (round 10 - 13)
+
+Nether and swamp items.
+
+<details>
+    <summary>All items in phase</summary>
+    <p>Anvil, Azalea, Azalea Leaves, Bamboo, Basalt, Blackstone, Blackstone Slab, Blackstone Stairs, Blackstone Wall, Blue Orchid, Chiseled Nether Bricks, Chiseled Polished Blackstone, Chiseled Quartz Block, Comparator, Cracked Nether Bricks, Cracked Polished Blackstone Bricks, Crimson Button, Crimson Door, Crimson Fence Gate, Crimson Fungus, Crimson Hyphae, Crimson Planks, Crimson Pressure Plate, Crimson Sign, Crimson Slab, Crimson Stairs, Crimson Stem, Crimson Trapdoor, Crying Obsidian, Daylight Detector, Dead Bush, Egg, Ender Pearl, Fern, Flowering Azalea, Flowering Azalea Leaves, Ghast Tear, Glistering Melon Slice, Glow Berries, Glowstone, Glowstone Dust, Gold Block, Golden Apple, Hanging Roots, Lead, Lily Pad, Magma Block, Magma Cream, Nether Brick, Nether Brick Fence, Nether Brick Slab, Nether Brick Stairs, Nether Brick Wall, Nether Bricks, Netherrack, Observer, Obsidian, Poisonous Potato, Polished Basalt, Polished Blackstone, Polished Blackstone Brick Slab, Polished Blackstone Brick Stairs, Polished Blackstone Brick Wall, Polished Blackstone Bricks, Polished Blackstone Button, Polished Blackstone Pressure Plate, Polished Blackstone Slab, Polished Blackstone Stairs, Polished Blackstone Wall, Quartz, Quartz Block, Quartz Bricks, Quartz Pillar, Quartz Slab, Quartz Stairs, Rabbit Stew, Respawn Anchor, Rooted Dirt, Shroomlight, Slime Ball, Slime Block, Smooth Quartz, Smooth Quartz Slab, Smooth Quartz Stairs, Soul Campfire, Soul Lantern, Soul Sand, Soul Soil, Soul Torch, Spectral Arrow, Spore Blossom, Sticky Piston, Stripped Crimson Hyphae, Stripped Crimson Stem, Stripped Warped Hyphae, Stripped Warped Stem, Warped Button, Warped Door, Warped Fence Gate, Warped Fungus, Warped Fungus On A Stick, Warped Hyphae, Warped Planks, Warped Pressure Plate, Warped Sign, Warped Slab, Warped Stairs, Warped Stem, Warped Trapdoor, Warped Wart Block</p>
+</details>
+
+### Phase 4 (round 14 - 17)
+
+Desert, jungle and fortress items.
+
+<details>
+    <summary>All items in phase</summary>
+    <p>Ancient Debris, Blaze Powder, Blaze Rod, Brewing Stand, Brown Banner, Brown Bed, Brown Carpet, Brown Concrete, Brown Concrete Powder, Brown Dye, Brown Glazed Terracotta, Brown Stained Glass, Brown Stained Glass Pane, Brown Terracotta, Brown Wool, Cactus, Cocoa Beans, Cookie, Cyan Banner, Cyan Bed, Cyan Carpet, Cyan Concrete, Cyan Concrete Powder, Cyan Dye, Cyan Glazed Terracotta, Cyan Stained Glass, Cyan Stained Glass Pane, Cyan Terracotta, Cyan Wool, Diamond Block, Diamond Boots, Diamond Chestplate, Diamond Helmet, Diamond Leggings, Emerald Block, Enchanting Table, End Crystal, Ender Chest, Ender Eye, Fire Charge, Green Banner, Green Bed, Green Carpet, Green Concrete, Green Concrete Powder, Green Dye, Green Glazed Terracotta, Green Stained Glass, Green Stained Glass Pane, Green Terracotta, Green Wool, Heart Of The Sea, Honey Block, Honeycomb, Jungle Boat, Jungle Button, Jungle Door, Jungle Fence Gate, Jungle Leaves, Jungle Log, Jungle Planks, Jungle Pressure Plate, Jungle Sapling, Jungle Sign, Jungle Slab, Jungle Stairs, Jungle Trapdoor, Jungle Wood, Lime Banner, Lime Bed, Lime Carpet, Lime Concrete, Lime Concrete Powder, Lime Dye, Lime Glazed Terracotta, Lime Stained Glass, Lime Stained Glass Pane, Lime Terracotta, Lime Wool, Name Tag, Nautilus Shell, Nether Wart, Nether Wart Block, Netherite Scrap, Powder Snow Bucket, Red Candle, Red Nether Brick Slab, Red Nether Brick Stairs, Red Nether Brick Wall, Red Nether Bricks, Scaffolding, Sea Pickle, Stripped Jungle Log, Stripped Jungle Wood, Tropical Fish Bucket, Waxed Copper Block, Waxed Cut Copper, Waxed Cut Copper Slab, Waxed Cut Copper Stairs</p>
+</details>
+
+### Phase 5 (round 18 - 23)
+
+Ocean monument, badlands and chainmail items.
+
+<details>
+    <summary>All items in phase</summary>
+    <p>Chiseled Red Sandstone, Cut Red Sandstone, Cut Red Sandstone Slab, Dark Prismarine, Dark Prismarine Slab, Dark Prismarine Stairs, Chainmail Boots, Chainmail Chestplate, Chainmail Helmet, Chainmail Leggings, Prismarine, Prismarine Brick Slab, Prismarine Brick Stairs, Prismarine Bricks, Prismarine Crystals, Prismarine Shard, Prismarine Slab, Prismarine Stairs, Prismarine Wall, Red Sand, Red Sandstone, Red Sandstone Slab, Red Sandstone Stairs, Red Sandstone Wall, Red Shulker Box, Scute, Smooth Red Sandstone, Smooth Red Sandstone Slab, Smooth Red Sandstone Stairs, Sponge, Wet Sponge</p>
+</details>
+
+### Phase 6 (round 24+)
+
+End and endgame items.
+
+<details>
+    <summary>All items in phase</summary>
+    <p>Black Shulker Box, Blue Shulker Box, Brown Shulker Box, Chorus Fruit, Conduit, Cyan Shulker Box, Dragon Breath, Dragon Head, Elytra, Enchanted Golden Apple, End Rod, End Stone, End Stone Brick Slab, End Stone Brick Stairs, End Stone Brick Wall, End Stone Bricks, Gray Shulker Box, Green Shulker Box, Light Blue Shulker Box, Light Gray Shulker Box, Lime Shulker Box, Magenta Shulker Box, Orange Shulker Box, Pink Shulker Box, Popped Chorus Fruit, Purple Shulker Box, Purpur Block, Purpur Pillar, Purpur Slab, Purpur Stairs, Shulker Box, Shulker Shell, Totem Of Undying, Trident, Turtle Helmet, White Shulker Box, Yellow Shulker Box</p>
+</details>
