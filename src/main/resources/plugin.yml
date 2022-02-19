@@ -1,0 +1,23 @@
+name: ItemShuffle
+version: ${project.version}
+main: cz.ardno.itemshuffle.ItemShuffle
+api-version: 1.18
+authors: [ Ardno ]
+description: ItemShuffle minigame
+
+commands:
+  itemshuffle:
+    permission: ardno.itemshuffle
+    permission-message: You don't have permission for this command (ardno.itemshuffle)
+    usage: Correct usage - /itemshuffle <start/stop/resetphase/setphase/bothmode/nextitem>
+    description: Main command for manage actions with ItemShuffle
+
+permissions:
+  ardno.*:
+    default: op
+    description: Gives permission to all commands from this plugin.
+    children:
+      ardno.itemshuffle: true
+  ardno.itemshuffle:
+    default: op
+    description: Allows to execute itemshuffle command.
